@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Lexend+Deca&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+.parent-border{
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.border1{
+    padding: 50px;
+    background-color: hsl(31, 77%, 52%);
+    padding-bottom: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.border1 .footer{
+    color:  hsl(31, 77%, 52%);
+}
+h2{
+    text-transform: uppercase;
+    padding: 40px 0;
+    font-family: 'Lexend Deca', sans-serif;
+    transform: scaleY(2);
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+}
+.footer{
+    padding: 18px 0px;
+    margin: 40px 0;
+    border-radius: 50px;
+    background-color:  hsl(0, 0%, 95%);
+    text-align: center;
+    width: 70%;
+}
+.border2{
+    padding: 50px;
+    background-color: hsl(184, 100%, 22%);
+    padding-bottom: 1px;
+}
+.border2 .footer{
+    color: hsl(184, 100%, 22%);
+}
+.border3{
+    padding: 50px;
+    background-color: hsl(179, 100%, 13%);
+    padding-bottom: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.border3 .footer{
+    color:hsl(179, 100%, 13%) ;
+}
+
+@media only screen and (min-width:500px) {
+    .parent-border{
+        width: 70%;
+    }
+}
+@media only screen and (min-width:700px) {
+    .parent-border{
+        width: 50%;
+    }
+}
+@media only screen and (min-width:900px) {
+    .parent-border{
+        width: 40%;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .parent-border{
+        width: 30% ;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .parent-border{
+        display: flex;
+        width: 50%;
+        margin-top: 10%;
+        
+    }
+    .footer{
+        margin-top: 80px;
+    }
+    .border1{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        padding: 40px;
+        padding-bottom: 0;
+    }
+    .border2{
+        padding: 40px;
+    }
+    .border3{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        padding: 40px;
+    }
+}
